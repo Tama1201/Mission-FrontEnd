@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./LoginRegister.css";
-import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
+import { FaUser, FaLock, FaEnvelope, FaPhoneSquareAlt } from "react-icons/fa";
 
 const LoginRegister = () => {
   const [action, setAction] = useState("");
@@ -59,6 +59,15 @@ const LoginRegister = () => {
           <div className="input-box">
             <input type="Email" placeholder="Email" required />
             <FaEnvelope className="icon" />
+          </div>
+
+          <div className="input-box">
+            <input
+              type="Please enter your phone number"
+              placeholder="Phone Number"
+              required
+            />
+            <FaPhoneSquareAlt className="icon" />
           </div>
 
           <div className="input-box">
