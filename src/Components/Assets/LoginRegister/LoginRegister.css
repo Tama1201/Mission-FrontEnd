@@ -14,7 +14,7 @@
   transition: height 0.2s ease;
 }
 .wrapper.active {
-  height: 520px;
+  height: 600px;
 }
 
 .wrapper .form-box {
@@ -83,6 +83,9 @@ form .input-box {
 form .remember-forgot {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
   font-size: 14.5px;
   margin: -15px 0 15px;
 }
@@ -129,4 +132,14 @@ form .register-link {
 
 .register-link p a:hover {
   text-decoration: underline;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  padding: 0;
+  color: #ffff;
+  cursor: pointer;
+  font: inherit;
 }
